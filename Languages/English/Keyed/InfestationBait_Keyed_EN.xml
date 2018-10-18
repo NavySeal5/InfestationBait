@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	<InfestationBait_SettingsCategory>InfestationBait</InfestationBait_SettingsCategory>
+	<InfestationBait_BaitChanceLabel> Bait Chance</InfestationBait_BaitChanceLabel>
+	<InfestationBait_BaitChanceTooltip>The chance in % for the bait to be used as location in case an infestation spawns. </InfestationBait_BaitChanceTooltip>
+	<InfestationBait_AcceptanceReportFailed_exist>Only one bait allowed per map!</InfestationBait_AcceptanceReportFailed_exist>
+	<InfestationBait_AcceptanceReportFailed_Roof>Must be placed below Overhead Mountain!</InfestationBait_AcceptanceReportFailed_Roof>
+	<InfestationBait_AcceptanceReportFailed_notInitialized>Something went terribly wrong!</InfestationBait_AcceptanceReportFailed_notInitialized>
+	<InfestationBait_Error_FoundMoreThanOneInSave>Error:Found more than one Bait building in save file! This should not have happened.Will not load any more than one.</InfestationBait_Error_FoundMoreThanOneInSave>
+	
+	
+</LanguageData>
