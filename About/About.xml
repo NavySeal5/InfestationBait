@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>InfestationBait</name>
-  <author>NavySeal</author>
-  <targetVersion>1.0.2059</targetVersion>
+	<name>InfestationBait</name>
+	<author>NavySeal</author>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+	</supportedVersions>
+	<packageId>navyseal5.InfestationBait</packageId>
   <description>Adds a building to the game which is used as location in case of an infestation.</description>
 </ModMetaData>
