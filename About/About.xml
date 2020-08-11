@@ -5,6 +5,7 @@
 	<supportedVersions>
 		<li>1.0</li>
 		<li>1.1</li>
+		<li>1.2</li>
 	</supportedVersions>
 	<packageId>navyseal5.InfestationBait</packageId>
   <description>Adds a building to the game which is used as location in case of an infestation.</description>
