@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BuildingBase">
+		<filthLeaving>Filth_Slime</filthLeaving>
+		<soundImpactDefault>BulletImpact_Flesh</soundImpactDefault>
+		<defName>Infestation_Bait</defName>
+		<label>Infestation Bait</label>
+		<description>A lump of organics that may attract Infestations.</description>
+		<thingClass>InfestationBait.Building_InfestationBait</thingClass>
+		<graphicData>
+		  <texPath>Things/Building/InfestationBait/bait</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shadowData>
+			<volume>(0.5,0.3,0.7)</volume>
+			<offset>(0,0,-0.15)</offset>
+		  </shadowData>
+		  <damageData>
+			<rect>(0.234375,0,0.515625,0.984375)</rect>
+			<cornerTL>Damage/Corner</cornerTL>
+			<cornerTR>Damage/Corner</cornerTR>
+			<cornerBL>Damage/Corner</cornerBL>
+			<cornerBR>Damage/Corner</cornerBR>
+		  </damageData>
+		</graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>40</pathCost>
+    <blockWind>false</blockWind>
+    <rotatable>false</rotatable>
+    <fillPercent>0.4</fillPercent>
+    <statBases>
+      <WorkToBuild>4000</WorkToBuild>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>6</Mass>
+      <Flammability>0.8</Flammability>
+	  <SellPriceFactor>0.00</SellPriceFactor>
+    </statBases>
+    <tickerType>Never</tickerType>
+    <costList>
+      <InsectJelly>150</InsectJelly>
+    </costList>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+	<placeWorkers>
+      <li>InfestationBait.PlaceWorker_InfestationBait</li>
+    </placeWorkers>
+    <designationCategory>Misc</designationCategory>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</ThingDef>
+
+</Defs>
