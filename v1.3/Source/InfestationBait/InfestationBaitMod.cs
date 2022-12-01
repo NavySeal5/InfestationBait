@@ -42,6 +42,7 @@ namespace InfestationBait{
 					
 			}
 			listing.End();
+			base.DoSettingsWindowContents(rect);
 		}
 	}
 }
